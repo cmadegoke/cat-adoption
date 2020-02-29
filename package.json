@@ -1,0 +1,28 @@
+{
+  "name": "unsolved",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cmadegoke/TeamReadMe.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cmadegoke/TeamReadMe/issues"
+  },
+  "homepage": "https://github.com/cmadegoke/TeamReadMe#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "express": "^4.17.1",
+    "express-handlebars": "^3.1.0",
+    "inquirer": "^7.0.4",
+    "json-stringify-safe": "5.0.1",
+    "mysql": "^2.18.1"
+  },
+  "keywords": []
+}
