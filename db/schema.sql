@@ -1,22 +1,21 @@
-DROP DATABASE IF EXISTS cats_db
+DROP DATABASE IF EXISTS cats_db;
 
-CREATE DATABASE cats_db
+CREATE DATABASE cats_db;
 
-USE cats_db
+USE cats_db;
 
-CREATE TABLE cats(
-    id INT NOT NULL AUTO INCREMENT,
-    cat_name VARCHAR (225) NOT NULL,
-    adopted BOOLEAN DEFAULT false NOT NULL,
-    PRIMARY KEY (id)
-
+CREATE TABLE cats (
+  id INT NOT NULL AUTO_INCREMENT,
+  cat_name VARCHAR(255) NOT NULL,
+  adopted BOOLEAN DEFAULT false NOT NULL,
+  PRIMARY KEY (id)
 );
 
-INSERT INTO cats 
-(cat_nam)
-VALUES 
-('jasper')
-('Hope')
-('James')
+INSERT INTO cats
+  (cat_name)
+VALUES
+  ('Macaroni'),
+  ('Mr. Fluffypants'),
+  ('Kevin');
 
-SELECT * FROM cats
+SELECT * FROM cats;
