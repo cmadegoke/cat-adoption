@@ -18,4 +18,4 @@ VALUES
   ('Mr. Fluffypants'),
   ('Kevin');
 
-SELECT * FROM cats;
+SELECT * FROM cat;s
